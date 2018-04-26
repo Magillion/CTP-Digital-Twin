@@ -1,0 +1,714 @@
+fileFormatVersion: 2
+guid: b142f1ba8e40a2a4abd2733cf61c1990
+timeCreated: 1516822855
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 24VDC PSU
+    100002: AC (Slot1)
+    100004: AC/DC
+    100006: AC/DC Controller01
+    100008: AC/DC Controller02
+    100010: AC/DC Controller022
+    100012: AC/DC Controller03
+    100014: AC/DC Controller04
+    100016: AC/DC Controller05
+    100018: AC/DC Controller06
+    100020: AC/DC Controller07
+    100022: AC/DC Controller08
+    100024: AC/DC Controller09
+    100026: AC/DC Controller10
+    100028: AC/DC Controller11
+    100030: AC/DC Controller12
+    100032: AC/DC Controller13
+    100034: AC/DC Controller14
+    100036: AC/DC Controller15
+    100038: AC/DC Controller16
+    100040: AC/DC Controller17
+    100042: AC/DC Controller18
+    100044: AC/DC Controller19
+    100046: AC/DC Controller20
+    100048: AC/DC Controller21
+    100050: BackPanel
+    100052: Beckoff Controller
+    100054: BFU
+    100056: BlackBoard
+    100058: BLock
+    100060: BLock001
+    100062: BLock002
+    100064: BLock003
+    100066: BLock004
+    100068: BLock005
+    100070: BLock006
+    100072: BLock007
+    100074: BLock008
+    100076: BLock009
+    100078: BottomShelf
+    100080: Cabinet
+    100082: CabinetMain
+    100084: Camera001
+    100086: Camera001.Target
+    100088: Camera002
+    100090: Camera002.Target
+    100092: ConnectionsComponent1
+    100094: ConnectionsComponent2
+    100096: Control Transformer 230VAC/24VAC
+    100098: //RootNode
+    100100: ES 3058 (Slot14)
+    100102: ES 3058 (Slot15A)
+    100104: ES 3068 (Slot11)
+    100106: ES 4008 (Slot16)
+    100108: ES 4008 (Slot17A)
+    100110: ES 9186 (Slot10)
+    100112: ES 9186 (Slot12)
+    100114: ES 9186 (Slot13)
+    100116: ES 9186 (Slot15)
+    100118: ES 9186 (Slot15B)
+    100120: FrontPanel
+    100122: FrontPanel 1
+    100124: GasDetector
+    100126: HTG-FM-101 (BFU-100M)
+    100128: HTG-FM-201 (BFU-100M)
+    100130: HTG-FM-301 (BFU-100M)
+    100132: HTG-FM-401 (BFU-100M)
+    100134: HTG-FM-501 (BFU-100M)
+    100136: HTG-FM-601 (BFU-100M)
+    100138: HTG-FM-701 (BFU-100M)
+    100140: HTG-FM-801 (BFU-100M)
+    100142: Left
+    100144: MainIsolator400VAC
+    100146: MCB
+    100148: MCB 230VAC
+    100150: MCB1 230VAC
+    100152: MCB10 400VAC
+    100154: MCB11 400VAC
+    100156: MCB12 400VAC
+    100158: MCB14 230VAC
+    100160: MCB15 230VAC
+    100162: MCB16 230VAC
+    100164: MCB17 230VAC
+    100166: MCB18 230VAC
+    100168: MCB19 230VAC
+    100170: MCB2 230VAC
+    100172: MCB20 230VAC
+    100174: MCB21 230VAC
+    100176: MCB22 230VAC
+    100178: MCB23 230VAC
+    100180: MCB24 230VAC
+    100182: MCB25 230VAC
+    100184: MCB26 230VAC
+    100186: MCB27 230VAC
+    100188: MCB28 230VAC
+    100190: MCB29 24VAC
+    100192: MCB3 230VAC
+    100194: MCB30 24VAC
+    100196: MCB4 230VAC
+    100198: MCB4 400VAC
+    100200: MCB5 400VAC
+    100202: MCB6 400VAC
+    100204: MCB7 400VAC
+    100206: MCB8 400VAC
+    100208: MCB9 400VAC
+    100210: MetalBar
+    100212: MetalBar001
+    100214: MetalBar002
+    100216: MetalBar003
+    100218: MetalBar004
+    100220: MetalBar005
+    100222: MetalBar006
+    100224: MetalBar007
+    100226: MetalBar008
+    100228: MetalBar009
+    100230: MetalBar010
+    100232: MetalBar011
+    100234: NTL
+    100236: Right
+    100238: Right002
+    100240: Shelf01
+    100242: Shelf02
+    100244: Shelf03
+    100246: Shelf04
+    100248: Shelf05
+    100250: Shelf06
+    100252: SiemensBox
+    100254: Slots
+    100256: SMV_Handle001
+    100258: Spot001
+    100260: Spot001.Target
+    100262: Spot002
+    100264: Spot002.Target
+    100266: SR1 24VAC
+    100268: SR2 24VAC
+    100270: Top
+    400000: 24VDC PSU
+    400002: AC (Slot1)
+    400004: AC/DC
+    400006: AC/DC Controller01
+    400008: AC/DC Controller02
+    400010: AC/DC Controller022
+    400012: AC/DC Controller03
+    400014: AC/DC Controller04
+    400016: AC/DC Controller05
+    400018: AC/DC Controller06
+    400020: AC/DC Controller07
+    400022: AC/DC Controller08
+    400024: AC/DC Controller09
+    400026: AC/DC Controller10
+    400028: AC/DC Controller11
+    400030: AC/DC Controller12
+    400032: AC/DC Controller13
+    400034: AC/DC Controller14
+    400036: AC/DC Controller15
+    400038: AC/DC Controller16
+    400040: AC/DC Controller17
+    400042: AC/DC Controller18
+    400044: AC/DC Controller19
+    400046: AC/DC Controller20
+    400048: AC/DC Controller21
+    400050: BackPanel
+    400052: Beckoff Controller
+    400054: BFU
+    400056: BlackBoard
+    400058: BLock
+    400060: BLock001
+    400062: BLock002
+    400064: BLock003
+    400066: BLock004
+    400068: BLock005
+    400070: BLock006
+    400072: BLock007
+    400074: BLock008
+    400076: BLock009
+    400078: BottomShelf
+    400080: Cabinet
+    400082: CabinetMain
+    400084: Camera001
+    400086: Camera001.Target
+    400088: Camera002
+    400090: Camera002.Target
+    400092: ConnectionsComponent1
+    400094: ConnectionsComponent2
+    400096: Control Transformer 230VAC/24VAC
+    400098: //RootNode
+    400100: ES 3058 (Slot14)
+    400102: ES 3058 (Slot15A)
+    400104: ES 3068 (Slot11)
+    400106: ES 4008 (Slot16)
+    400108: ES 4008 (Slot17A)
+    400110: ES 9186 (Slot10)
+    400112: ES 9186 (Slot12)
+    400114: ES 9186 (Slot13)
+    400116: ES 9186 (Slot15)
+    400118: ES 9186 (Slot15B)
+    400120: FrontPanel
+    400122: FrontPanel 1
+    400124: GasDetector
+    400126: HTG-FM-101 (BFU-100M)
+    400128: HTG-FM-201 (BFU-100M)
+    400130: HTG-FM-301 (BFU-100M)
+    400132: HTG-FM-401 (BFU-100M)
+    400134: HTG-FM-501 (BFU-100M)
+    400136: HTG-FM-601 (BFU-100M)
+    400138: HTG-FM-701 (BFU-100M)
+    400140: HTG-FM-801 (BFU-100M)
+    400142: Left
+    400144: MainIsolator400VAC
+    400146: MCB
+    400148: MCB 230VAC
+    400150: MCB1 230VAC
+    400152: MCB10 400VAC
+    400154: MCB11 400VAC
+    400156: MCB12 400VAC
+    400158: MCB14 230VAC
+    400160: MCB15 230VAC
+    400162: MCB16 230VAC
+    400164: MCB17 230VAC
+    400166: MCB18 230VAC
+    400168: MCB19 230VAC
+    400170: MCB2 230VAC
+    400172: MCB20 230VAC
+    400174: MCB21 230VAC
+    400176: MCB22 230VAC
+    400178: MCB23 230VAC
+    400180: MCB24 230VAC
+    400182: MCB25 230VAC
+    400184: MCB26 230VAC
+    400186: MCB27 230VAC
+    400188: MCB28 230VAC
+    400190: MCB29 24VAC
+    400192: MCB3 230VAC
+    400194: MCB30 24VAC
+    400196: MCB4 230VAC
+    400198: MCB4 400VAC
+    400200: MCB5 400VAC
+    400202: MCB6 400VAC
+    400204: MCB7 400VAC
+    400206: MCB8 400VAC
+    400208: MCB9 400VAC
+    400210: MetalBar
+    400212: MetalBar001
+    400214: MetalBar002
+    400216: MetalBar003
+    400218: MetalBar004
+    400220: MetalBar005
+    400222: MetalBar006
+    400224: MetalBar007
+    400226: MetalBar008
+    400228: MetalBar009
+    400230: MetalBar010
+    400232: MetalBar011
+    400234: NTL
+    400236: Right
+    400238: Right002
+    400240: Shelf01
+    400242: Shelf02
+    400244: Shelf03
+    400246: Shelf04
+    400248: Shelf05
+    400250: Shelf06
+    400252: SiemensBox
+    400254: Slots
+    400256: SMV_Handle001
+    400258: Spot001
+    400260: Spot001.Target
+    400262: Spot002
+    400264: Spot002.Target
+    400266: SR1 24VAC
+    400268: SR2 24VAC
+    400270: Top
+    2300000: 24VDC PSU
+    2300002: AC (Slot1)
+    2300004: AC/DC Controller01
+    2300006: AC/DC Controller02
+    2300008: AC/DC Controller03
+    2300010: AC/DC Controller04
+    2300012: AC/DC Controller05
+    2300014: AC/DC Controller06
+    2300016: AC/DC Controller07
+    2300018: AC/DC Controller08
+    2300020: AC/DC Controller09
+    2300022: AC/DC Controller10
+    2300024: AC/DC Controller11
+    2300026: AC/DC Controller12
+    2300028: AC/DC Controller13
+    2300030: AC/DC Controller14
+    2300032: AC/DC Controller15
+    2300034: AC/DC Controller16
+    2300036: AC/DC Controller17
+    2300038: AC/DC Controller18
+    2300040: AC/DC Controller19
+    2300042: AC/DC Controller20
+    2300044: AC/DC Controller21
+    2300046: BackPanel
+    2300048: Beckoff Controller
+    2300050: BlackBoard
+    2300052: BLock
+    2300054: BLock001
+    2300056: BLock002
+    2300058: BLock003
+    2300060: BLock004
+    2300062: BLock005
+    2300064: BLock006
+    2300066: BLock007
+    2300068: BLock008
+    2300070: BLock009
+    2300072: BottomShelf
+    2300074: CabinetMain
+    2300076: ConnectionsComponent1
+    2300078: ConnectionsComponent2
+    2300080: Control Transformer 230VAC/24VAC
+    2300082: ES 3058 (Slot14)
+    2300084: ES 3058 (Slot15A)
+    2300086: ES 3068 (Slot11)
+    2300088: ES 4008 (Slot16)
+    2300090: ES 4008 (Slot17A)
+    2300092: ES 9186 (Slot10)
+    2300094: ES 9186 (Slot12)
+    2300096: ES 9186 (Slot13)
+    2300098: ES 9186 (Slot15)
+    2300100: ES 9186 (Slot15B)
+    2300102: FrontPanel
+    2300104: FrontPanel 1
+    2300106: GasDetector
+    2300108: HTG-FM-101 (BFU-100M)
+    2300110: HTG-FM-201 (BFU-100M)
+    2300112: HTG-FM-301 (BFU-100M)
+    2300114: HTG-FM-401 (BFU-100M)
+    2300116: HTG-FM-501 (BFU-100M)
+    2300118: HTG-FM-601 (BFU-100M)
+    2300120: HTG-FM-701 (BFU-100M)
+    2300122: HTG-FM-801 (BFU-100M)
+    2300124: Left
+    2300126: MainIsolator400VAC
+    2300128: MCB 230VAC
+    2300130: MCB1 230VAC
+    2300132: MCB10 400VAC
+    2300134: MCB11 400VAC
+    2300136: MCB12 400VAC
+    2300138: MCB14 230VAC
+    2300140: MCB15 230VAC
+    2300142: MCB16 230VAC
+    2300144: MCB17 230VAC
+    2300146: MCB18 230VAC
+    2300148: MCB19 230VAC
+    2300150: MCB2 230VAC
+    2300152: MCB20 230VAC
+    2300154: MCB21 230VAC
+    2300156: MCB22 230VAC
+    2300158: MCB23 230VAC
+    2300160: MCB24 230VAC
+    2300162: MCB25 230VAC
+    2300164: MCB26 230VAC
+    2300166: MCB27 230VAC
+    2300168: MCB28 230VAC
+    2300170: MCB29 24VAC
+    2300172: MCB3 230VAC
+    2300174: MCB30 24VAC
+    2300176: MCB4 230VAC
+    2300178: MCB4 400VAC
+    2300180: MCB5 400VAC
+    2300182: MCB6 400VAC
+    2300184: MCB7 400VAC
+    2300186: MCB8 400VAC
+    2300188: MCB9 400VAC
+    2300190: MetalBar
+    2300192: MetalBar001
+    2300194: MetalBar002
+    2300196: MetalBar003
+    2300198: MetalBar004
+    2300200: MetalBar005
+    2300202: MetalBar006
+    2300204: MetalBar007
+    2300206: MetalBar008
+    2300208: MetalBar009
+    2300210: MetalBar010
+    2300212: MetalBar011
+    2300214: NTL
+    2300216: Right
+    2300218: Right002
+    2300220: Shelf01
+    2300222: Shelf02
+    2300224: Shelf03
+    2300226: Shelf04
+    2300228: Shelf05
+    2300230: Shelf06
+    2300232: SiemensBox
+    2300234: SMV_Handle001
+    2300236: SR1 24VAC
+    2300238: SR2 24VAC
+    2300240: Top
+    3300000: 24VDC PSU
+    3300002: AC (Slot1)
+    3300004: AC/DC Controller01
+    3300006: AC/DC Controller02
+    3300008: AC/DC Controller03
+    3300010: AC/DC Controller04
+    3300012: AC/DC Controller05
+    3300014: AC/DC Controller06
+    3300016: AC/DC Controller07
+    3300018: AC/DC Controller08
+    3300020: AC/DC Controller09
+    3300022: AC/DC Controller10
+    3300024: AC/DC Controller11
+    3300026: AC/DC Controller12
+    3300028: AC/DC Controller13
+    3300030: AC/DC Controller14
+    3300032: AC/DC Controller15
+    3300034: AC/DC Controller16
+    3300036: AC/DC Controller17
+    3300038: AC/DC Controller18
+    3300040: AC/DC Controller19
+    3300042: AC/DC Controller20
+    3300044: AC/DC Controller21
+    3300046: BackPanel
+    3300048: Beckoff Controller
+    3300050: BlackBoard
+    3300052: BLock
+    3300054: BLock001
+    3300056: BLock002
+    3300058: BLock003
+    3300060: BLock004
+    3300062: BLock005
+    3300064: BLock006
+    3300066: BLock007
+    3300068: BLock008
+    3300070: BLock009
+    3300072: BottomShelf
+    3300074: CabinetMain
+    3300076: ConnectionsComponent1
+    3300078: ConnectionsComponent2
+    3300080: Control Transformer 230VAC/24VAC
+    3300082: ES 3058 (Slot14)
+    3300084: ES 3058 (Slot15A)
+    3300086: ES 3068 (Slot11)
+    3300088: ES 4008 (Slot16)
+    3300090: ES 4008 (Slot17A)
+    3300092: ES 9186 (Slot10)
+    3300094: ES 9186 (Slot12)
+    3300096: ES 9186 (Slot13)
+    3300098: ES 9186 (Slot15)
+    3300100: ES 9186 (Slot15B)
+    3300102: FrontPanel
+    3300104: FrontPanel 1
+    3300106: GasDetector
+    3300108: HTG-FM-101 (BFU-100M)
+    3300110: HTG-FM-201 (BFU-100M)
+    3300112: HTG-FM-301 (BFU-100M)
+    3300114: HTG-FM-401 (BFU-100M)
+    3300116: HTG-FM-501 (BFU-100M)
+    3300118: HTG-FM-601 (BFU-100M)
+    3300120: HTG-FM-701 (BFU-100M)
+    3300122: HTG-FM-801 (BFU-100M)
+    3300124: Left
+    3300126: MainIsolator400VAC
+    3300128: MCB 230VAC
+    3300130: MCB1 230VAC
+    3300132: MCB10 400VAC
+    3300134: MCB11 400VAC
+    3300136: MCB12 400VAC
+    3300138: MCB14 230VAC
+    3300140: MCB15 230VAC
+    3300142: MCB16 230VAC
+    3300144: MCB17 230VAC
+    3300146: MCB18 230VAC
+    3300148: MCB19 230VAC
+    3300150: MCB2 230VAC
+    3300152: MCB20 230VAC
+    3300154: MCB21 230VAC
+    3300156: MCB22 230VAC
+    3300158: MCB23 230VAC
+    3300160: MCB24 230VAC
+    3300162: MCB25 230VAC
+    3300164: MCB26 230VAC
+    3300166: MCB27 230VAC
+    3300168: MCB28 230VAC
+    3300170: MCB29 24VAC
+    3300172: MCB3 230VAC
+    3300174: MCB30 24VAC
+    3300176: MCB4 230VAC
+    3300178: MCB4 400VAC
+    3300180: MCB5 400VAC
+    3300182: MCB6 400VAC
+    3300184: MCB7 400VAC
+    3300186: MCB8 400VAC
+    3300188: MCB9 400VAC
+    3300190: MetalBar
+    3300192: MetalBar001
+    3300194: MetalBar002
+    3300196: MetalBar003
+    3300198: MetalBar004
+    3300200: MetalBar005
+    3300202: MetalBar006
+    3300204: MetalBar007
+    3300206: MetalBar008
+    3300208: MetalBar009
+    3300210: MetalBar010
+    3300212: MetalBar011
+    3300214: NTL
+    3300216: Right
+    3300218: Right002
+    3300220: Shelf01
+    3300222: Shelf02
+    3300224: Shelf03
+    3300226: Shelf04
+    3300228: Shelf05
+    3300230: Shelf06
+    3300232: SiemensBox
+    3300234: SMV_Handle001
+    3300236: SR1 24VAC
+    3300238: SR2 24VAC
+    3300240: Top
+    4300000: Beckoff Controller
+    4300002: SiemensBox
+    4300004: SR2 24VAC
+    4300006: ConnectionsComponent1
+    4300008: MainIsolator400VAC
+    4300010: Control Transformer 230VAC/24VAC
+    4300012: 24VDC PSU
+    4300014: MCB30 24VAC
+    4300016: MCB28 230VAC
+    4300018: MCB27 230VAC
+    4300020: MCB26 230VAC
+    4300022: MCB25 230VAC
+    4300024: MCB24 230VAC
+    4300026: MCB23 230VAC
+    4300028: MCB22 230VAC
+    4300030: MCB21 230VAC
+    4300032: MCB20 230VAC
+    4300034: MCB19 230VAC
+    4300036: MCB18 230VAC
+    4300038: MCB17 230VAC
+    4300040: MCB16 230VAC
+    4300042: MCB15 230VAC
+    4300044: MCB14 230VAC
+    4300046: MCB12 400VAC
+    4300048: MCB11 400VAC
+    4300050: MCB10 400VAC
+    4300052: MCB9 400VAC
+    4300054: MCB8 400VAC
+    4300056: MCB7 400VAC
+    4300058: MCB6 400VAC
+    4300060: MCB5 400VAC
+    4300062: MCB4 400VAC
+    4300064: MCB4 230VAC
+    4300066: MCB3 230VAC
+    4300068: MCB2 230VAC
+    4300070: MCB1 230VAC
+    4300072: MCB 230VAC
+    4300074: MCB29 24VAC
+    4300076: HTG-FM-101 (BFU-100M)
+    4300078: HTG-FM-201 (BFU-100M)
+    4300080: HTG-FM-301 (BFU-100M)
+    4300082: HTG-FM-401 (BFU-100M)
+    4300084: HTG-FM-501 (BFU-100M)
+    4300086: HTG-FM-601 (BFU-100M)
+    4300088: HTG-FM-701 (BFU-100M)
+    4300090: HTG-FM-801 (BFU-100M)
+    4300092: AC/DC Controller21
+    4300094: AC/DC Controller20
+    4300096: AC/DC Controller19
+    4300098: AC/DC Controller18
+    4300100: AC/DC Controller17
+    4300102: AC/DC Controller16
+    4300104: AC/DC Controller15
+    4300106: AC/DC Controller14
+    4300108: AC/DC Controller13
+    4300110: AC/DC Controller12
+    4300112: AC/DC Controller11
+    4300114: AC/DC Controller10
+    4300116: AC/DC Controller09
+    4300118: AC/DC Controller08
+    4300120: AC/DC Controller07
+    4300122: AC/DC Controller06
+    4300124: AC/DC Controller05
+    4300126: AC/DC Controller04
+    4300128: AC/DC Controller03
+    4300130: AC/DC Controller02
+    4300132: AC/DC Controller01
+    4300134: GasDetector
+    4300136: NTL
+    4300138: SMV_Handle001
+    4300140: SR1 24VAC
+    4300142: ConnectionsComponent2
+    4300144: BlackBoard
+    4300146: BLock
+    4300148: BLock001
+    4300150: BLock002
+    4300152: BLock003
+    4300154: BLock004
+    4300156: BLock005
+    4300158: BLock006
+    4300160: BLock007
+    4300162: BLock008
+    4300164: BLock009
+    4300166: BottomShelf
+    4300168: CabinetMain
+    4300170: Left
+    4300172: FrontPanel
+    4300174: FrontPanel
+    4300176: Shelf06
+    4300178: Right002
+    4300180: Right
+    4300182: Shelf01
+    4300184: Shelf02
+    4300186: Shelf03
+    4300188: Shelf04
+    4300190: Shelf05
+    4300192: MetalBar001
+    4300194: MetalBar002
+    4300196: MetalBar003
+    4300198: MetalBar004
+    4300200: MetalBar005
+    4300202: MetalBar006
+    4300204: MetalBar007
+    4300206: MetalBar008
+    4300208: MetalBar009
+    4300210: MetalBar010
+    4300212: MetalBar011
+    4300214: Top
+    4300216: MetalBar
+    4300218: BackPanel
+    4300220: ES 9186 (Slot10)
+    4300222: ES 9186 (Slot13)
+    4300224: ES 9186 (Slot12)
+    4300226: ES 4008 (Slot17A)
+    4300228: ES 4008 (Slot16)
+    4300230: ES 9186 (Slot15B)
+    4300232: ES 3058 (Slot15A)
+    4300234: ES 9186 (Slot15)
+    4300236: ES 3058 (Slot14)
+    4300238: AC (Slot1)
+    4300240: ES 3068 (Slot11)
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
